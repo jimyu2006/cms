@@ -1,0 +1,30 @@
+[
+			{"BrandID" : "1" , "Brand": "TOYOTA", "Models":[
+			{"ID" : 1, "Model" : "RAV4", "IsActive": "true"},
+			{"ID" : 2, "Model" : "HIGHLANDER", "IsActive": "true"},
+			{"ID" : 3, "Model" : "COROLA", "IsActive": "true"},
+			{"ID" : 4, "Model" : "CAMERY", "IsActive": "true"},
+			{"ID" : 5, "Model" : "LEXUS", "IsActive": "true"}
+			],"IsActive": "true"},
+			
+			{"BrandID" : "2" ,  "Brand": "NISSAN","Models":[
+			{"ID" : 11, "Model" : "BLUE BIRD", "IsActive": "true"},
+			{"ID" : 12, "Model" : "TEANA", "IsActive": "true"},
+			{"ID" : 13, "Model" : "CORSA", "IsActive": "true"},
+			{"ID" : 14, "Model" : "SKY LINE", "IsActive": "true"}
+			],"IsActive": "true"},
+			
+			{"BrandID" : "3" , "Brand": "HONDA", "Models":[
+			{"ID" : 21, "Model" : "ODESSY", "IsActive": "true"},
+			{"ID" : 22, "Model" : "ACCORD", "IsActive": "true"},
+			{"ID" : 23, "Model" : "CRV", "IsActive": "true"},
+			{"ID" : 25, "Model" : "LEXUS", "IsActive": "true"}
+			],"IsActive": "true"},
+
+  {
+    "BrandID": "4" , "Brand": "MITSUBISHI","Models":[
+			{"ID" : 31, "Model" : "PAJERO", "IsActive": "true"},
+			{"ID" : 32, "Model" : "MIRAGE", "IsActive": "true"},
+			{"ID" : 33, "Model" : "OUTLANDER", "IsActive": "true"}
+			],"IsActive": "false"}
+]

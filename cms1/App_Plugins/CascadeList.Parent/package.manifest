@@ -1,0 +1,19 @@
+﻿ {
+  	propertyEditors:
+  	[ 
+  		{
+  			alias: "CascadingList.Parent",
+  			name: "Cascading list parent",
+			group:"Rich Content",
+  			editor:
+  			{
+  				view: "~/App_Plugins/CascadeList.Parent/parentlist.html"
+ 			}
+ 		}
+ 	],
+ 	javascript:
+ 	[
+ 		"~/App_Plugins/CascadeList.Parent/parentlist.controller.js",
+ 		"~/App_Plugins/CascadeList.Parent/parentlist.resources.js"
+ 	]
+ }

@@ -1,0 +1,4 @@
+C:\project\umbraco\Service.Interface\bin\Debug\Service.Interface.dll
+C:\project\umbraco\Service.Interface\bin\Debug\Service.Interface.pdb
+C:\project\umbraco\Service.Interface\obj\Debug\Service.Interface.dll
+C:\project\umbraco\Service.Interface\obj\Debug\Service.Interface.pdb

@@ -1,0 +1,13 @@
+﻿<div ng-controller="cascadeList.parentlistController">
+    <div>Brands</div>
+    <select name="parentDropdownList"
+            ng-model="model.value.brandid"
+            ng-change="update()"
+            ng-options="d.BrandID as d.Brand for d in parentListItems" />
+
+    <div>Models</div>
+    <select name="childDropdownList"
+            ng-model="model.value.modelid"
+            ng-options="d.ID as d.Model for d in childListItems" />
+</div>
+

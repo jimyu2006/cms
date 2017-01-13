@@ -1,0 +1,9 @@
+[
+	{ID: 1, Brand: 'TOYOTA'},
+	{ID: 2, Brand: 'NISSAN'},
+	{ID: 3, Brand: 'HONDA'},
+	{ID: 4, Brand: 'MITRUBISHI'},
+	{ID: 5, Brand: 'HYUNDAI'},
+	{ID: 6, Brand: 'SUBARU'},
+	{ID: 7, Brand: 'SUZUKI'}
+]

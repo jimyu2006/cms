@@ -1,0 +1,10 @@
+C:\project\umbraco\Data\bin\Debug\Data.dll.config
+C:\project\umbraco\Data\bin\Debug\Data.dll
+C:\project\umbraco\Data\bin\Debug\Data.pdb
+C:\project\umbraco\Data\bin\Debug\EntityFramework.dll
+C:\project\umbraco\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\project\umbraco\Data\bin\Debug\EntityFramework.xml
+C:\project\umbraco\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\project\umbraco\Data\obj\Debug\Data.dll
+C:\project\umbraco\Data\obj\Debug\Data.pdb
+C:\project\umbraco\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

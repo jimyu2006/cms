@@ -1,0 +1,4 @@
+C:\project\umbraco\Domain.Interface\bin\Debug\Domain.Interface.dll
+C:\project\umbraco\Domain.Interface\bin\Debug\Domain.Interface.pdb
+C:\project\umbraco\Domain.Interface\obj\Debug\Domain.Interface.dll
+C:\project\umbraco\Domain.Interface\obj\Debug\Domain.Interface.pdb

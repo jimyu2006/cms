@@ -1,0 +1,4 @@
+C:\project\umbraco\Data.Interface\bin\Debug\Data.Interface.dll
+C:\project\umbraco\Data.Interface\bin\Debug\Data.Interface.pdb
+C:\project\umbraco\Data.Interface\obj\Debug\Data.Interface.dll
+C:\project\umbraco\Data.Interface\obj\Debug\Data.Interface.pdb
