@@ -19,21 +19,21 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "9267d5d710140ccc")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.7")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6605a5d3e78843fd")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>Master</summary>
-	[PublishedContentModel("master")]
-	public partial class Master : PublishedContentModel
+	/// <summary>Car</summary>
+	[PublishedContentModel("car")]
+	public partial class Car : PublishedContentModel
 	{
 #pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "master";
+		public new const string ModelTypeAlias = "car";
 		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
 #pragma warning restore 0109
 
-		public Master(IPublishedContent content)
+		public Car(IPublishedContent content)
 			: base(content)
 		{ }
 
@@ -44,33 +44,33 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 #pragma warning restore 0109
 
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Master, TValue>> selector)
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Car, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 
 		///<summary>
-		/// Page Title
+		/// Brand
 		///</summary>
-		[ImplementPropertyType("pageTitle")]
-		public string PageTitle
+		[ImplementPropertyType("brand")]
+		public object Brand
 		{
-			get { return this.GetPropertyValue<string>("pageTitle"); }
+			get { return this.GetPropertyValue("brand"); }
 		}
 
 		///<summary>
-		/// Site Name
+		/// Model
 		///</summary>
-		[ImplementPropertyType("siteName")]
-		public string SiteName
+		[ImplementPropertyType("model")]
+		public object Model
 		{
-			get { return this.GetPropertyValue<string>("siteName"); }
+			get { return this.GetPropertyValue("model"); }
 		}
 	}
 
-	/// <summary>Page</summary>
+	/// <summary>Home</summary>
 	[PublishedContentModel("home")]
-	public partial class Home : Master
+	public partial class Home : PublishedContentModel
 	{
 #pragma warning disable 0109 // new is redundant
 		public new const string ModelTypeAlias = "home";
@@ -94,12 +94,21 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
-		/// car info
+		/// BodyText
 		///</summary>
-		[ImplementPropertyType("carInfo")]
-		public object CarInfo
+		[ImplementPropertyType("bodyText")]
+		public IHtmlString BodyText
 		{
-			get { return this.GetPropertyValue("carInfo"); }
+			get { return this.GetPropertyValue<IHtmlString>("bodyText"); }
+		}
+
+		///<summary>
+		/// Page Title
+		///</summary>
+		[ImplementPropertyType("pageTitle")]
+		public string PageTitle
+		{
+			get { return this.GetPropertyValue<string>("pageTitle"); }
 		}
 	}
 
